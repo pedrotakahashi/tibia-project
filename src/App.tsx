@@ -21,6 +21,7 @@ function App() {
     <div className="App">
       <div className="content">
         <h2>Tibia Characters using API</h2>
+        <InputGetCharacter />
         <h3>Lista de Mundos</h3>
         <span>Número de players online: {numberOfPlayersOnline}</span>
         <ul>

@@ -3,7 +3,7 @@ import { _axios } from "./axios";
 export const getCharacterByName = async (name: String) => {
   try {
     if (!name) return;
-    const response = await _axios.get(`/character/${name}.json`);
+    const response = await _axios.get(`characters/${name}.json`);
     return response.data;
   } catch (error) {
     console.error(error);
